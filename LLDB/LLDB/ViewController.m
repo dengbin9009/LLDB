@@ -10,13 +10,6 @@
 
 @interface ViewController ()
 - (IBAction)action_test:(id)sender;
-- (IBAction)action_test1:(id)sender;
-- (IBAction)action_test2:(id)sender;
-- (IBAction)action_test3:(id)sender;
-- (IBAction)action_test4:(id)sender;
-- (IBAction)action_test5:(id)sender;
-- (IBAction)action_test6:(id)sender;
-- (IBAction)action_test7:(id)sender;
 
 @end
 
@@ -27,36 +20,53 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)action_test:(id)sender {
+    [self ocTest];
+}
+
 void cTest () {
     printf("cTest\n");
 }
 
 - (void)ocTest {
     NSLog(@"ocTest");
+    [self ocTest1];
 }
 
 - (void)ocTest1 {
     NSLog(@"ocTest1");
+    [self ocTest2];
 }
 
 - (void)ocTest2 {
+    [self ocTest3];
     NSLog(@"ocTest2");
 }
 
 - (void)ocTest3 {
     NSLog(@"ocTest3");
+    [self ocTest4:@"123"];
 }
 
 - (void)ocTest4:(NSString *)str {
-    NSLog(@"ocTest4");
+    NSLog(@"ocTest4：%@",str);
+    [self ocTest4:@"123" type1:@"1"];
 }
 
 - (void)ocTest4:(NSString *)str type1:(NSString *)type{
     NSLog(@"ocTest4:type1");
+    type = @"3";
+    [self ocTest4:@"123" type2:@"2"];
 }
 
 - (void)ocTest4:(NSString *)str type2:(NSString *)type{
     NSLog(@"ocTest4:type2:");
+    [self ocTest4555:@"123" type2:@"2"];
+}
+
+- (void)ocTest4:(NSString *)str type3:(NSString *)type{
+    NSLog(@"ocTest4:type3:");
+    [self ocTest4555:@"123" type2:@"3"];
 }
 
 - (void)ocTest4555:(NSString *)str type2:(NSString *)type{
@@ -66,38 +76,6 @@ void cTest () {
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     NSLog(@"1");
     NSLog(@"2");
-}
-
-- (IBAction)action_test:(id)sender {
-    [self ocTest];
-}
-
-- (IBAction)action_test1:(id)sender {
-    [self ocTest1];
-}
-
-- (IBAction)action_test2:(id)sender {
-    [self ocTest2];
-}
-
-- (IBAction)action_test3:(id)sender {
-    [self ocTest3];
-}
-
-- (IBAction)action_test4:(id)sender {
-    [self ocTest4:@"123"];
-}
-
-- (IBAction)action_test5:(id)sender {
-    [self ocTest4:@"123" type1:@"1"];
-}
-
-- (IBAction)action_test6:(id)sender {
-    [self ocTest4:@"123" type2:@"1"];
-}
-
-- (IBAction)action_test7:(id)sender {
-    [self ocTest4555:@"123" type2:@"1"];
 }
 
 @end

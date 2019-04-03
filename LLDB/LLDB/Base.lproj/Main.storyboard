@@ -30,67 +30,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="071-Ui-3dO">
-                                <rect key="frame" x="31" y="127" width="177" height="30"/>
+                                <rect key="frame" x="31" y="156" width="177" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="test"/>
                                 <connections>
                                     <action selector="action_test:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RuO-si-8MH"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ss9-ku-REx">
-                                <rect key="frame" x="31" y="175" width="177" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="test1"/>
-                                <connections>
-                                    <action selector="action_test1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QMh-C5-ADx"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="acM-IB-TfQ">
-                                <rect key="frame" x="31" y="222" width="177" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="test2"/>
-                                <connections>
-                                    <action selector="action_test2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3m4-4x-Asd"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hwv-Yb-0QU">
-                                <rect key="frame" x="31" y="271" width="177" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="test3"/>
-                                <connections>
-                                    <action selector="action_test3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ptt-Ce-ICL"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tKM-Xe-7bA">
-                                <rect key="frame" x="31" y="309" width="177" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="test4"/>
-                                <connections>
-                                    <action selector="action_test4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RPB-k3-n9y"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e9j-f1-C2M">
-                                <rect key="frame" x="31" y="356" width="177" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="test5"/>
-                                <connections>
-                                    <action selector="action_test5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Uyb-vw-813"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UPh-ne-czV">
-                                <rect key="frame" x="31" y="405" width="177" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="test6"/>
-                                <connections>
-                                    <action selector="action_test6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ULU-09-Stx"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ckt-9w-Tmd">
-                                <rect key="frame" x="31" y="451" width="177" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="test7"/>
-                                <connections>
-                                    <action selector="action_test7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yge-u3-YZC"/>
                                 </connections>
                             </button>
                         </subviews>
